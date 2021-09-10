@@ -1,0 +1,36 @@
+{
+  "cognito": {
+    "poolId": "us-east-1:ab561415-18f0-444f-8117-143423bed783",
+    "appUserPoolClientId": "6rf7qj5mscglqhnscro8drit8h",
+    "appUserPoolName": "us-east-1_vZhgArYc0",
+    "appDomainName": "lexkwebkuikidentitypoolconfigkgomdfagowicv487810346898.auth.us-east-1.amazoncognito.com",
+    "appUserPoolIdentityProvider": ""
+  },
+  "lex": {
+    "botName": "AITraining",
+    "botAlias": "$LATEST",
+    "initialText": "Hi, This is Samantha.",
+    "initialSpeechInstruction": "Say 'Welcome' to get started.",
+    "reInitSessionAttributesOnRestart": false
+  },
+  "ui": {
+    "parentOrigin": "https://lex-web-ui-codebuilddeploy-4kh1iu3hc-webappbucket-1ah9p124z7ny2.s3.amazonaws.com",
+    "toolbarTitle": "ArtificeOn",
+    "toolbarLogo": "",
+    "enableLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": true,
+    "pushInitialTextOnRestart": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "https://lex-web-ui-codebuilddeploy-4kh1iu3hc-webappbucket-1ah9p124z7ny2.s3.amazonaws.com",
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
